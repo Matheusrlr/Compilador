@@ -1,0 +1,9 @@
+
+a = 1
+b = 2
+c = 3
+if b<c goto L0
+t0 = 0
+goto L1
+L0:t0 = 1
+L1:a = t0

@@ -1,0 +1,11 @@
+
+a = 1
+b = 2
+c = 3
+L0:if c == 0 goto L2
+t0 = a + 1
+a = t0
+t1 = c - 1
+c = t1
+goto L0
+L2:

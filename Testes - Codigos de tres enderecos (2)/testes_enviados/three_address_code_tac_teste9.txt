@@ -1,0 +1,13 @@
+
+a = 0
+b = 1
+c = 2
+t0 = a + b
+if t0 == 0 goto L2
+t1 = b * c
+if t1 == 0 goto L2
+goto L1
+L1:z = 1
+goto L0
+L2:z = 0
+L0:

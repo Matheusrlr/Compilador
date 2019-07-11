@@ -1,0 +1,16 @@
+
+a = 1
+b = 2
+c = 3
+L0:if c!=5 goto L4
+goto L3
+L4:if a<2 goto L1
+goto L3
+L3:if b==1 goto L1
+goto L2
+L1:t0 = a + 1
+a = t0
+t1 = c - 1
+c = t1
+goto L0
+L2:
